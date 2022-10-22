@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #d3d3d31a;
+}
 #board {
     margin: 0 auto;
     display: flex;
