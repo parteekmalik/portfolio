@@ -12,6 +12,10 @@ let flagedTile = "url(mine/flag.png)";
 let borderTile = "url(mine/boarder.png)";
 let borderTileFlat = "url(mine/boarderflat.png)";
 
+for(let i=0;i<11;i++)
+    tileImg.push('url(mine/' + i + '.png)');
+   
+
 window.onload =function(){
     row.addEventListener("input",showRowAndCol);
     col.addEventListener("input",showRowAndCol);
@@ -20,9 +24,7 @@ window.onload =function(){
 // initiaization of gameOver
 function startGame(){
     minesCount = Math.round(rows*columns/4.848);
-    for(let i=0;i<11;i++){
-        tileImg.push('url(mine/' + i + '.png)');
-    }
+    
 
     makeBorderRow("top");
     TimeAndReset();
