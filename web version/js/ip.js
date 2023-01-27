@@ -1,3 +1,3 @@
-const ip = "117.206.208.23"
+const ip = "117.222.229.97"
 export default ip;
 export{ip};
