@@ -1,4 +1,3 @@
-
 let rows = 30, columns = 60, minesCount = 350;
 let gameOver=true;
 let firstClicked = false;
