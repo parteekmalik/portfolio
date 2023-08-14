@@ -169,7 +169,7 @@ function clickTile(event){
     if(event.button==0){
         onleftclick(tile,x,y);
     }
-    else if(event.button==2){
+    else if(event.button==2 or event.button==32){
         onRightclick(tile,x,y);
     }
 }
