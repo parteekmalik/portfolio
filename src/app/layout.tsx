@@ -24,6 +24,27 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable}`}>
+        <div className="absolute flex  w-[100vw]    justify-center   text-2xl text-white ">
+          <div className="flex w-[1080px] gap-20 p-4">
+            <div className="   ">parteek malik</div>
+            <div className=" flex  gap-20">
+              <div className="">home</div>
+              <div>about</div>
+              <div>projects</div>
+              <div>github</div>
+            </div>
+            <div className="grow"></div>
+            <div
+              className=" "
+              // style={{
+              //   boxShadow:
+              //     "0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3)",
+              // }}
+            >
+              login
+            </div>
+          </div>
+        </div>
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>
