@@ -48,6 +48,7 @@ export default function RootLayout({
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>
+        <footer className="relative flex items-center justify-center">footer</footer>
       </body>
     </html>
   );

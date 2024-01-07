@@ -48,21 +48,27 @@ export default async function Home() {
         </div>
       </div>
       <div className="w-full bg-gray-100">
-        <div className="mx-auto my-5 flex w-[40%] flex-col items-center justify-center gap-10 rounded-md  p-6 shadow-2xl">
+        <div className="mx-auto my-5 flex w-[40%] flex-col items-center justify-center gap-10 rounded-md  bg-gray-50 p-6 shadow-2xl">
           <div className="text-3xl">Projects</div>
-          <div className="flex gap-20">
-            <div className="text-2xl">minesweper</div>
+          <div className="flex w-full gap-20">
+            <div className="flex  grow flex-col items-center justify-center text-2xl">
+              <div>minesweper</div>
+              <div>great game</div>
+            </div>
             <img
               src="/images/pic01.png"
               className="h-96 w-96 rounded-md drop-shadow-xl"
             ></img>
           </div>
-          <div className="flex gap-20">
+          <div className="flex w-full gap-20">
             <img
               src="/images/board_img.png"
               className="h-96 w-96 rounded-md drop-shadow-xl"
             ></img>
-            <div className="text-2xl">chess</div>
+            <div className="flex grow flex-col items-center justify-center text-2xl">
+              <div>chess</div>
+              <div>great game</div>
+            </div>
           </div>
           <div></div>
           <div></div>
